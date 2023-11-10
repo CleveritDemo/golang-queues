@@ -1,7 +1,7 @@
 package persistence
 
 import (
-	"golang-queues/internal/infra/config/properties"
+	"golang-queues/pkg/config/properties"
 	"log"
 	"sync"
 )
