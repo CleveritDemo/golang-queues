@@ -1,0 +1,25 @@
+subscriptions:
+  john-doe:
+    host: '0.0.0.0'
+    port: '5672'
+    user: 'admin'
+    password: 'admin'
+    exchange: 'test-topic'
+    queue: 'test-sub'
+    routing-key: 'test-sub'
+    consumer-tag: 'test'
+    worker-pool-size: 10
+
+database:
+  postgresql:
+    host: localhost
+    port: 5432
+    database: postgres
+    user: '{POSTGRES_USER}'
+    password: '{POSTGRES_PASSWORD}'
+  mysql:
+    host: localhost
+    port: 3306
+    database: mysql
+    user: '{MY_SQL_USER}'
+    password: '{MY_SQL_PASSWORD}'
